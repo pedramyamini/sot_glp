@@ -433,7 +433,7 @@ if __name__ == "__main__":
     train_loader = dts_tools.get_train_loader(
         train_dataset,
         batch_size=args.accum_batch_size,
-        num_workers=10,
+        num_workers=0,
         persistent_workers=args.persistent_workers,
     )
     val_loader = dts_tools.get_eval_loader(val_dataset, batch_size=args.inference_batch_size)
