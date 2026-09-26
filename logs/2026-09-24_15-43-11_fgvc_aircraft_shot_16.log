@@ -1,0 +1,8 @@
+[[36m2026-09-24 15:43:11[0m][[94mGalLoP[0m][[33mWARNING[0m] - Logfile fgvc_aircraft_shot_16.log does not exist, defaulting to logs\2026-09-24_15-43-11_fgvc_aircraft_shot_16.log[0m
+[[36m2026-09-24 15:43:11[0m][[94mGalLoP[0m][[32mINFO[0m] - Setting the seed to 1[0m
+[[36m2026-09-24 15:43:11[0m][[94mGalLoP[0m][[32mINFO[0m] - Running experiment fgvc_aircraft_shot_16[0m
+[[36m2026-09-24 15:43:11[0m][[94mGalLoP[0m][[32mINFO[0m] - Using template: A photo of a <class_name>[0m
+[[36m2026-09-24 15:43:27[0m][[94mGalLoP[0m][[33mWARNING[0m] - Missing keys in CLIP: ['global_prompt', 'local_prompts', 'local_proj.linear.weight'][0m
+[[36m2026-09-24 15:43:27[0m][[94mGalLoP[0m][[32mINFO[0m] - global_prompt added to params_group[0m
+[[36m2026-09-24 15:43:27[0m][[94mGalLoP[0m][[32mINFO[0m] - local_prompts added to params_group[0m
+[[36m2026-09-24 15:43:27[0m][[94mGalLoP[0m][[32mINFO[0m] - local_proj.linear.weight added to params_group[0m

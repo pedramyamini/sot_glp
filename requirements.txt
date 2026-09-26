@@ -1,0 +1,17 @@
+numpy
+torch
+torchvision
+pillow
+pandas
+clip @ git+https://github.com/openai/CLIP.git
+timm
+rich
+colorlog
+tqdm
+nltk
+termcolor
+wandb
+wandb-osh
+openpyxl
+scikit-learn
+gdown

@@ -1,0 +1,25 @@
+2026-09-26 19:55:10 | ================================================================================
+2026-09-26 19:55:10 | Progress log started. exp_name=fgvc_aircraft_shot_16, path=./results\fgvc_aircraft_shot_16\training_progress.log
+2026-09-26 19:55:10 | ================================================================================
+2026-09-26 19:55:10 | Config: dataset=fgvc_aircraft | clip=clip_vit_b16 | num_shots=16 | max_epoch=200 | accum_batch_size=32 | accum_steps=4 | original_batch_size=128 | lr_init=0.01 | use_fp16=True
+2026-09-26 19:55:10 | DataLoader ready: train_samples=1600 | train_batches=50 | val_samples=3333
+2026-09-26 19:55:19 | Model+Optimizer ready. Starting training for 200 epochs.
+2026-09-26 19:57:37 | [EPOCH 0] START | num_batches=50 | accum_steps=4 | num_optim_steps=13
+2026-09-26 20:01:49 | [EPOCH 0] STEP 1/13 (batch 4/50) | loss=7.3162 global=3.0008 local=4.3154 | top1=15.62 top1_global=25.00 top1_local=12.50 | lr=0.010000 | gpu=8.46G
+2026-09-26 20:04:39 | [EPOCH 0] STEP 2/13 (batch 8/50) | loss=8.2088 global=3.1440 local=5.0648 | top1=18.75 top1_global=15.62 top1_local=9.38 | lr=0.010000 | gpu=8.47G
+2026-09-26 20:06:54 | [EPOCH 0] STEP 3/13 (batch 12/50) | loss=8.4602 global=3.0131 local=5.4471 | top1=3.12 top1_global=12.50 top1_local=3.12 | lr=0.010000 | gpu=8.47G
+2026-09-26 20:09:05 | [EPOCH 0] STEP 4/13 (batch 16/50) | loss=7.8215 global=2.6357 local=5.1858 | top1=15.62 top1_global=25.00 top1_local=9.38 | lr=0.010000 | gpu=8.47G
+2026-09-26 20:11:17 | [EPOCH 0] STEP 5/13 (batch 20/50) | loss=6.6141 global=2.4910 local=4.1231 | top1=25.00 top1_global=34.38 top1_local=18.75 | lr=0.010000 | gpu=8.47G
+2026-09-26 20:13:37 | [EPOCH 0] STEP 6/13 (batch 24/50) | loss=6.6240 global=2.5245 local=4.0994 | top1=25.00 top1_global=21.88 top1_local=15.62 | lr=0.010000 | gpu=8.47G
+2026-09-26 20:16:10 | [EPOCH 0] STEP 7/13 (batch 28/50) | loss=7.4374 global=3.1170 local=4.3204 | top1=18.75 top1_global=28.12 top1_local=9.38 | lr=0.010000 | gpu=8.47G
+2026-09-26 20:19:19 | [EPOCH 0] STEP 8/13 (batch 32/50) | loss=6.8936 global=2.7918 local=4.1018 | top1=18.75 top1_global=21.88 top1_local=6.25 | lr=0.010000 | gpu=8.47G
+2026-09-26 20:22:46 | [EPOCH 0] STEP 9/13 (batch 36/50) | loss=7.2544 global=3.0196 local=4.2348 | top1=12.50 top1_global=15.62 top1_local=6.25 | lr=0.010000 | gpu=8.47G
+2026-09-26 20:25:15 | [EPOCH 0] STEP 10/13 (batch 40/50) | loss=6.9842 global=2.9482 local=4.0360 | top1=21.88 top1_global=15.62 top1_local=9.38 | lr=0.010000 | gpu=8.47G
+2026-09-26 20:27:33 | [EPOCH 0] STEP 11/13 (batch 44/50) | loss=6.3958 global=2.9539 local=3.4419 | top1=21.88 top1_global=21.88 top1_local=31.25 | lr=0.010000 | gpu=8.47G
+2026-09-26 20:29:49 | [EPOCH 0] STEP 12/13 (batch 48/50) | loss=6.4448 global=2.6287 local=3.8161 | top1=15.62 top1_global=25.00 top1_local=9.38 | lr=0.010000 | gpu=8.47G
+2026-09-26 20:31:00 | [EPOCH 0] STEP 12/13 (batch 50/50) | loss=5.8199 global=2.7590 local=3.0609 | top1=43.75 top1_global=18.75 top1_local=25.00 | lr=0.010000 | gpu=8.47G
+2026-09-26 20:31:20 | [EPOCH 0] DONE in 2022.4s (0.02 it/s, 33.71 min) | loss: 7.071 global_loss: 2.880 local_loss: 4.191 top1: 19.250 top1_global: 21.500 top1_local: 12.250
+2026-09-26 20:33:05 | [EPOCH 1] START | num_batches=50 | accum_steps=4 | num_optim_steps=13
+2026-09-26 20:35:24 | [EPOCH 1] STEP 1/13 (batch 4/50) | loss=6.1659 global=2.9397 local=3.2262 | top1=37.50 top1_global=21.88 top1_local=31.25 | lr=0.009999 | gpu=8.47G
+2026-09-26 20:37:31 | [EPOCH 1] STEP 2/13 (batch 8/50) | loss=5.8463 global=2.7173 local=3.1291 | top1=31.25 top1_global=21.88 top1_local=31.25 | lr=0.009999 | gpu=8.47G
+2026-09-26 20:39:42 | [EPOCH 1] STEP 3/13 (batch 12/50) | loss=5.8813 global=2.6306 local=3.2507 | top1=25.00 top1_global=21.88 top1_local=18.75 | lr=0.009999 | gpu=8.47G
